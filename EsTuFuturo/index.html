@@ -113,7 +113,7 @@
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                   <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                     <div class="portfolio-item-caption-content text-center text-white">
-                      <i class="fas fa-plus fa-3x"></i>
+                      <i class="fas fa-star fa-3x"></i>
                     </div>
                   </div>
                   <img class="img-fluid" src="img/portfolio/cabin.png" alt="">
@@ -207,7 +207,9 @@
                   </div>
                 </div>
                 <br>
-                <button class="float-right">Consultar</button>
+                <div data-toggle="modal" data-target="#portfolioModal8">
+                  <button class="float-right">Consultar</button>
+                </div>
               </div>
             </div>
           </div>
@@ -334,10 +336,11 @@
           <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/ICETEX">
             <i class="fab fa-fw fa-twitter"></i>
           </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="https://www.youtube.com/channel/UCQdpH6wYGuf7z-v1EzIZiow">
+          <a class="btn btn-outline-light btn-social mx-1"
+            href="https://www.youtube.com/channel/UCQdpH6wYGuf7z-v1EzIZiow">
             <i class="fab fa-fw fa-youtube"></i>
           </a>
-        </div>    
+        </div>
 
       </div>
     </div>
@@ -809,6 +812,59 @@ aria-labelledby="portfolioModal1Label" aria-hidden="true">
       </div>
     </div>
   </div>
+  <!-- Portfolio Modal 8 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog"
+    aria-labelledby="portfolioModal6Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Becas encontradas</h2>
+                <br>
+                <!--Table-->
+                <table class="table table-striped w-auto">
+
+                  <!--Table head-->
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Nombre</th>
+                      <th>Oferente</th>
+                      <th>% Beca</th>
+                      <th>Cantidad</th>
+                      <th>Modalidad</th>
+                      <th>Fecha Limite</th>
+                      <th>Aplicar</th>
+                      <th>Favoritos</th>
+                    </tr>
+                  </thead>
+                  <!--Table head-->
+
+                  <!--Table body-->
+                  <tbody>
+                    
+                  </tbody>
+                  <!--Table body-->
+
+
+                </table>
+                <!--Table-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
